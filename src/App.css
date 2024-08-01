@@ -1,0 +1,21 @@
+.App {
+  background: linear-gradient(0deg, rgb(75, 2, 144), rgb(173, 90, 251));
+}
+
+.txt-blue-v {
+  color: rgb(75, 2, 144);
+}
+
+.btn-new {
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(113, 5, 214);
+  color: white;
+}
+
+.btn-new:hover {
+  background-color: rgb(189, 119, 253);
+  color: white;
+}
