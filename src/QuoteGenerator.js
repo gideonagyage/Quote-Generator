@@ -48,7 +48,7 @@ function QuoteGenerator() {
         </div>
 
         <figure className="text-center">
-          <blockquote className="blockquote fs-5">
+          <blockquote className="blockquote p-2 fs-5">
             <p>{quote}</p>
           </blockquote>
           <figcaption className="blockquote-footer mt-2 fw-medium fs-6">
@@ -70,30 +70,40 @@ function QuoteGenerator() {
               <a
                 href="https://linkedin.com/in/gideonagyage"
                 className="text-decoration-none mx-2 txt-blue-v"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="lg" />
               </a>
               <a
                 href="https://x.com/gideon_agyage"
                 className="text-decoration-none mx-2 txt-blue-v"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faXTwitter} size="lg" />
               </a>
               <a
                 href="https://facebook.com/gideonagyage"
                 className="text-decoration-none mx-2 txt-blue-v"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faFacebook} size="lg" />
               </a>
               <a
                 href="https://github.com/gideonagyage"
                 className="text-decoration-none mx-2 txt-blue-v"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>
               <a
                 href="https://behance.net/gideonagyage"
                 className="text-decoration-none mx-2 txt-blue-v"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <FontAwesomeIcon icon={faBehance} size="lg" />
               </a>

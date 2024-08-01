@@ -55,15 +55,23 @@ The `QuoteGenerator` component is responsible for fetching quotes, managing stat
 
 ## Screenshots
 
-<img src="./img/Screenshot-Large-Screen.jpeg" height="400px" alt="Large" title="Large Screen">
+- First Quote
 
 <br>
 
-<img src="./img/Screenshot-Small-Screen.jpeg" height="350px" alt="Small" title="Small Screen">
+<img src="./img/Screenshot-1.jpeg" height="400px" alt="Large" title="First Quote">
+
+<br> <br>
+
+- Second Quote
+
+<br>
+
+<img src="./img/Screenshot-2.jpeg" height="400px" alt="Small" title="Second Quote">
 
 ## Live Demo
 
-Check out the live demo [here](https://medium-landing-page-six.vercel.app/).
+Check out the live demo [here](https://quote-generator-three-peach.vercel.app/).
 
 ## Key Concepts
 
