@@ -14,10 +14,10 @@ import {
 function QuoteGenerator() {
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
-  const [isLoading, setIsLoading] = useState(false); // Add loading state
+  const [isLoading, setIsLoading] = useState(false);
 
   const fetchQuote = async () => {
-    setIsLoading(true); // Set loading state to true before fetching
+    setIsLoading(true);
     try {
       const response = await axios.get(
         "https://api.api-ninjas.com/v1/quotes?category=success",
