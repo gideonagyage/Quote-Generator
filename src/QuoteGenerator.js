@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import dotenv from "dotenv";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Spinner from "react-bootstrap/Spinner";
 import axios from "axios";
@@ -12,6 +13,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function QuoteGenerator() {
+  dotenv.config();
+
   const [quote, setQuote] = useState("");
   const [author, setAuthor] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -23,7 +26,7 @@ function QuoteGenerator() {
         "https://api.api-ninjas.com/v1/quotes?category=success",
         {
           headers: {
-            "X-Api-Key": "mtSYuNMNNQIIh6WMIIYklyMTPO3gbPhR9qyDh2Gc",
+            "X-Api-Key": process.env.REACT_APP_API_KEY,
           },
         }
       );
